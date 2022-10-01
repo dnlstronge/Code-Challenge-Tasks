@@ -1,15 +1,25 @@
 //Create a function which determines age range based on input;
 
 
-const lifePhase = () => {
-if (lifePhase < 0) {return 'This is not a valid age'}
-else if (lifePhase <= 3) {return 'baby'};
-else if (lifePhase <= 12) {return 'child'}
-else if (lifePhase <= 19) {return 'teen'}
-else if (lifePhase <= 64) {return 'adult'}
-else if (lifePhase <= 140) {return 'senior citizen'}
+//Life age range calculator
 
-else {return 'This is not a valid age'}
+const lifePhase = age => {
 
-  
-}
+if (age < 0 || age > 140) {
+  return 'This is not a valid age'
+  } else if (age < 4) {
+  return 'baby'
+  } else if (age < 13) {
+  return 'child'
+  } else if (age < 20) {
+  return 'teen'
+  } else if (age < 65) {
+  return 'adult'
+  } else {
+  return 'senior citizen'}
+
+};
+
+// Enter age below:
+
+console.log(lifePhase()) //should print 'child'
