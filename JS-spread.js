@@ -8,3 +8,6 @@ console.log(newNum)
 
 
 //outputs: [1, 2, 3, 4, 5, 6]
+
+
+//do the same for and object, give the object 3 properties and add another in the new object:
