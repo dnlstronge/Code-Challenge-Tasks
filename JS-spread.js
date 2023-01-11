@@ -27,3 +27,13 @@ const clone = {
 console.log(clone)
 
 // outputs: { name: 'dave', Address: '45 The Road', id: 12345, number: 77878 }
+
+
+
+// use rest to output all the '3's in a sequenece:
+
+// e.g calling filter(1, 3, 4, 3, 5) should output and array consisting of two '3's
+
+
+
+
