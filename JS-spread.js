@@ -11,3 +11,19 @@ console.log(newNum)
 
 
 //do the same for and object, give the object 3 properties and add another in the new object:
+
+
+const person = {
+  name: 'dave',
+  Address: '45 The Road',
+  id: 12345,
+}
+
+const clone = {
+  ...person, 
+  number: 77878
+}
+
+console.log(clone)
+
+// outputs: { name: 'dave', Address: '45 The Road', id: 12345, number: 77878 }
