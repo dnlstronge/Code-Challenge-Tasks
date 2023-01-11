@@ -34,6 +34,12 @@ console.log(clone)
 
 // e.g calling filter(1, 3, 4, 3, 5) should output and array consisting of two '3's
 
+const filter = (...args) => {
+  return args.filter(e => e === 3)
+}
 
+console.log(filter(1, 3, 4, 5, 3))
+
+//output: [3, 3]
 
 
