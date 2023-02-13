@@ -20,6 +20,8 @@ switch (planet) {
 
 // test
 
+
+
 // if valid parameters entered returns correct earth weight eq.
 
 console.log(calculateWeight(100, 'pluto')) // returns 'Invalid Planet....
